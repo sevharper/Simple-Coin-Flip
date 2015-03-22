@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0630"
+   version = "2.0">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C69DF1281ABE80200086411D"
+               BuildableName = "Simple Coin Flip WatchKit App.app"
+               BlueprintName = "Simple Coin Flip WatchKit App"
+               ReferencedContainer = "container:Simple Coin Flip.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C69DF0F21ABE7FD70086411D"
+               BuildableName = "Simple Coin Flip.app"
+               BlueprintName = "Simple Coin Flip"
+               ReferencedContainer = "container:Simple Coin Flip.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C69DF11B1ABE801F0086411D"
+               BuildableName = "Simple Coin Flip WatchKit Extension.appex"
+               BlueprintName = "Simple Coin Flip WatchKit Extension"
+               ReferencedContainer = "container:Simple Coin Flip.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C69DF1281ABE80200086411D"
+            BuildableName = "Simple Coin Flip WatchKit App.app"
+            BlueprintName = "Simple Coin Flip WatchKit App"
+            ReferencedContainer = "container:Simple Coin Flip.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES"
+      launchAutomaticallySubstyle = "8"
+      notificationPayloadFile = "Simple Coin Flip WatchKit Extension/PushNotificationPayload.apns">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Simple Coin Flip">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C69DF1281ABE80200086411D"
+            BuildableName = "Simple Coin Flip WatchKit App.app"
+            BlueprintName = "Simple Coin Flip WatchKit App"
+            ReferencedContainer = "container:Simple Coin Flip.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C69DF1281ABE80200086411D"
+            BuildableName = "Simple Coin Flip WatchKit App.app"
+            BlueprintName = "Simple Coin Flip WatchKit App"
+            ReferencedContainer = "container:Simple Coin Flip.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES"
+      launchAutomaticallySubstyle = "8"
+      notificationPayloadFile = "Simple Coin Flip WatchKit Extension/PushNotificationPayload.apns">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Simple Coin Flip">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C69DF1281ABE80200086411D"
+            BuildableName = "Simple Coin Flip WatchKit App.app"
+            BlueprintName = "Simple Coin Flip WatchKit App"
+            ReferencedContainer = "container:Simple Coin Flip.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C69DF1281ABE80200086411D"
+            BuildableName = "Simple Coin Flip WatchKit App.app"
+            BlueprintName = "Simple Coin Flip WatchKit App"
+            ReferencedContainer = "container:Simple Coin Flip.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
