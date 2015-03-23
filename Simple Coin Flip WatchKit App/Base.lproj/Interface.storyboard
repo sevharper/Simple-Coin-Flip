@@ -10,14 +10,14 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Simple_Coin_Flip_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <button width="1" alignment="left" verticalAlignment="bottom" title="Flip!" id="7FT-q8-tBU">
+                        <imageView width="99" height="99" alignment="center" verticalAlignment="bottom" image="coin" contentMode="scaleAspectFit" initiallyAnimated="NO" animationDuration="0.5" id="XyB-Hw-eQ6"/>
+                        <button width="136" height="34" alignment="center" title="Flip!" id="7FT-q8-tBU">
                             <color key="titleColor" red="1" green="0.97222052136501003" blue="0.95361630685576282" alpha="1" colorSpace="calibratedRGB"/>
-                            <color key="backgroundColor" red="0.49343039772727271" green="0.47178309152436099" blue="0.47793788939813892" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.2688054359015587" green="0.52674143132746964" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <action selector="updateImage" destination="AgC-eL-Hgc" id="pXi-ac-BOJ"/>
                             </connections>
                         </button>
-                        <imageView width="99" height="99" alignment="center" verticalAlignment="bottom" image="quarterBack.png" contentMode="scaleAspectFit" id="XyB-Hw-eQ6"/>
                     </items>
                     <connections>
                         <outlet property="coinImage" destination="XyB-Hw-eQ6" id="GiG-bN-VUe"/>

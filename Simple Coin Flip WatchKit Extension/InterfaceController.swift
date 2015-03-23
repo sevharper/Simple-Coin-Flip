@@ -13,23 +13,41 @@ import Foundation
 class InterfaceController: WKInterfaceController {
 
     @IBOutlet var coinImage: WKInterfaceImage!
-
+    
+    var isAnimating = false
+    
     @IBAction func updateImage() {
-
-        var rand = arc4random_uniform(2)
         
-        var currentImage = "quarterFront.png"
-
-        if rand == 0
+        if (false == isAnimating)
         {
-            currentImage = "quarterFront.png"
+            setTitle("Catch!")
+            
+            coinImage.setImageNamed("coin")
+            coinImage.startAnimating()
+            isAnimating = true
         }
         else
         {
-            currentImage = "quarterBack.png"
+            setTitle("Flip!")
+            coinImage.stopAnimating()
+            isAnimating = false
+            var rand = arc4random_uniform(2)
+            
+            var currentImage:String
+            
+            if rand == 0
+            {
+                currentImage = "coin1.png"
+            }
+            else
+            {
+                currentImage = "coin5.png"
+            }
+            
+            coinImage.setImageNamed(currentImage)
         }
+
         
-        coinImage.setImageNamed(currentImage)
     
     }
     

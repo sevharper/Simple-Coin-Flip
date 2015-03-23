@@ -20,8 +20,6 @@
 		C69DF1321ABE80200086411D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C69DF1301ABE80200086411D /* Interface.storyboard */; };
 		C69DF1341ABE80200086411D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C69DF1331ABE80200086411D /* Images.xcassets */; };
 		C69DF1371ABE80200086411D /* Simple Coin Flip WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C69DF11C1ABE801F0086411D /* Simple Coin Flip WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C69DF1401ABE81860086411D /* quarterFront.png in Resources */ = {isa = PBXBuildFile; fileRef = C69DF13F1ABE81860086411D /* quarterFront.png */; };
-		C69DF1441ABE84CB0086411D /* quarterBack.png in Resources */ = {isa = PBXBuildFile; fileRef = C69DF1431ABE84CB0086411D /* quarterBack.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,8 +81,6 @@
 		C69DF12F1ABE80200086411D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C69DF1311ABE80200086411D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		C69DF1331ABE80200086411D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C69DF13F1ABE81860086411D /* quarterFront.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quarterFront.png; sourceTree = "<group>"; };
-		C69DF1431ABE84CB0086411D /* quarterBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quarterBack.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,9 +191,7 @@
 		C69DF12D1ABE80200086411D /* Simple Coin Flip WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				C69DF1431ABE84CB0086411D /* quarterBack.png */,
 				C69DF1301ABE80200086411D /* Interface.storyboard */,
-				C69DF13F1ABE81860086411D /* quarterFront.png */,
 				C69DF1331ABE80200086411D /* Images.xcassets */,
 				C69DF12E1ABE80200086411D /* Supporting Files */,
 			);
@@ -361,10 +355,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C69DF1401ABE81860086411D /* quarterFront.png in Resources */,
 				C69DF1321ABE80200086411D /* Interface.storyboard in Resources */,
 				C69DF1341ABE80200086411D /* Images.xcassets in Resources */,
-				C69DF1441ABE84CB0086411D /* quarterBack.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,6 +578,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -603,6 +596,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IBSC_MODULE = Simple_Coin_Flip_WatchKit_Extension;
 				INFOPLIST_FILE = "Simple Coin Flip WatchKit App/Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -655,6 +649,7 @@
 				C69DF1141ABE7FD70086411D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C69DF1151ABE7FD70086411D /* Build configuration list for PBXNativeTarget "Simple Coin FlipTests" */ = {
 			isa = XCConfigurationList;
@@ -663,6 +658,7 @@
 				C69DF1171ABE7FD70086411D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C69DF1381ABE80200086411D /* Build configuration list for PBXNativeTarget "Simple Coin Flip WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -671,6 +667,7 @@
 				C69DF13A1ABE80200086411D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C69DF13B1ABE80200086411D /* Build configuration list for PBXNativeTarget "Simple Coin Flip WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -679,6 +676,7 @@
 				C69DF13D1ABE80200086411D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
